@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('plano-de-fundo-em-estilo-matricial-caindo-numeros-aleatorios_100456-1130.jpg');
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #11192e;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid#bbedec;
+}
+
+.box h1 {
+    color: #bbedec;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ccedec;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box button {
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid #106332;
+    padding: 14px 40px;
+    overflow: none;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.box button:hover{
+    background: #2ecc71;
+}
